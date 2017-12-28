@@ -34,15 +34,15 @@
 		806D486A1FF542B7001E523D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		806D486C1FF542B7001E523D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		806D486F1FF542B7001E523D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		806D48711FF542B7001E523D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		806D48781FF5433F001E523D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		806D487A1FF54371001E523D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		806D48851FF543E3001E523D /* DesignPatterns Localhost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DesignPatterns Localhost.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		806D48861FF543E4001E523D /* DesignPatterns Localhost-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DesignPatterns Localhost-Info.plist"; path = "/Users/ajaybabu.s/Desktop/DesignPatterns/DesignPatterns Localhost-Info.plist"; sourceTree = "<absolute>"; };
 		806D48911FF543E6001E523D /* DesignPatterns Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DesignPatterns Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		806D48921FF543E6001E523D /* DesignPatterns Dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DesignPatterns Dev-Info.plist"; path = "/Users/ajaybabu.s/Desktop/DesignPatterns/DesignPatterns Dev-Info.plist"; sourceTree = "<absolute>"; };
 		806D489D1FF543E9001E523D /* DesignPatterns UAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DesignPatterns UAT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		806D489E1FF543E9001E523D /* DesignPatterns UAT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DesignPatterns UAT-Info.plist"; path = "/Users/ajaybabu.s/Desktop/DesignPatterns/DesignPatterns UAT-Info.plist"; sourceTree = "<absolute>"; };
+		80A98B821FF551AC0003A067 /* DesignPatterns Dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DesignPatterns Dev-Info.plist"; sourceTree = "<group>"; };
+		80A98B831FF551AC0003A067 /* DesignPatterns Localhost-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DesignPatterns Localhost-Info.plist"; sourceTree = "<group>"; };
+		80A98B841FF551AC0003A067 /* DesignPatterns UAT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DesignPatterns UAT-Info.plist"; sourceTree = "<group>"; };
+		80A98B851FF551AC0003A067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +82,6 @@
 			children = (
 				806D48641FF542B7001E523D /* DesignPatterns */,
 				806D48631FF542B7001E523D /* Products */,
-				806D48861FF543E4001E523D /* DesignPatterns Localhost-Info.plist */,
-				806D48921FF543E6001E523D /* DesignPatterns Dev-Info.plist */,
-				806D489E1FF543E9001E523D /* DesignPatterns UAT-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,12 +99,12 @@
 		806D48641FF542B7001E523D /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				80A98B811FF551AC0003A067 /* Plists */,
 				806D48771FF5431F001E523D /* AppDelegate */,
 				806D48791FF54371001E523D /* ViewControllers */,
 				806D48691FF542B7001E523D /* Main.storyboard */,
 				806D486C1FF542B7001E523D /* Assets.xcassets */,
 				806D486E1FF542B7001E523D /* LaunchScreen.storyboard */,
-				806D48711FF542B7001E523D /* Info.plist */,
 			);
 			path = DesignPatterns;
 			sourceTree = "<group>";
@@ -126,6 +123,17 @@
 				806D487A1FF54371001E523D /* ViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		80A98B811FF551AC0003A067 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				80A98B821FF551AC0003A067 /* DesignPatterns Dev-Info.plist */,
+				80A98B831FF551AC0003A067 /* DesignPatterns Localhost-Info.plist */,
+				80A98B841FF551AC0003A067 /* DesignPatterns UAT-Info.plist */,
+				80A98B851FF551AC0003A067 /* Info.plist */,
+			);
+			path = Plists;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -460,7 +468,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P4S4VJ6DH6;
-				INFOPLIST_FILE = DesignPatterns/Info.plist;
+				INFOPLIST_FILE = DesignPatterns/Plists/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_OSACOMPILEFLAGS = "";
 				OTHER_SWIFT_FLAGS = "-DPROD";
@@ -478,7 +486,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P4S4VJ6DH6;
-				INFOPLIST_FILE = DesignPatterns/Info.plist;
+				INFOPLIST_FILE = DesignPatterns/Plists/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_OSACOMPILEFLAGS = "";
 				OTHER_SWIFT_FLAGS = "-DPROD";
@@ -496,7 +504,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P4S4VJ6DH6;
-				INFOPLIST_FILE = "DesignPatterns Localhost-Info.plist";
+				INFOPLIST_FILE = "DesignPatterns/Plists/DesignPatterns Localhost-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DLocalhost";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.ist.DesignPatterns-Localhost";
@@ -512,7 +520,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P4S4VJ6DH6;
-				INFOPLIST_FILE = "DesignPatterns Localhost-Info.plist";
+				INFOPLIST_FILE = "DesignPatterns/Plists/DesignPatterns Localhost-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DLocalhost";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.ist.DesignPatterns-Localhost";
@@ -529,7 +537,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P4S4VJ6DH6;
-				INFOPLIST_FILE = "DesignPatterns Dev-Info.plist";
+				INFOPLIST_FILE = "DesignPatterns/Plists/DesignPatterns Dev-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DDev";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.ist.DesignPatterns-Dev";
@@ -545,7 +553,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P4S4VJ6DH6;
-				INFOPLIST_FILE = "DesignPatterns Dev-Info.plist";
+				INFOPLIST_FILE = "DesignPatterns/Plists/DesignPatterns Dev-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DDev";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.ist.DesignPatterns-Dev";
@@ -561,7 +569,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P4S4VJ6DH6;
-				INFOPLIST_FILE = "DesignPatterns UAT-Info.plist";
+				INFOPLIST_FILE = "DesignPatterns/Plists/DesignPatterns UAT-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DUAT";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.ist.DesignPatterns-UAT";
@@ -577,7 +585,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P4S4VJ6DH6;
-				INFOPLIST_FILE = "DesignPatterns UAT-Info.plist";
+				INFOPLIST_FILE = "DesignPatterns/Plists/DesignPatterns UAT-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DUAT";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.ist.DesignPatterns-UAT";
