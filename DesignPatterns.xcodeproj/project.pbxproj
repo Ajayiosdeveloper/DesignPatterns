@@ -43,6 +43,7 @@
 		806D48921FF543E6001E523D /* DesignPatterns Dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DesignPatterns Dev-Info.plist"; path = "/Users/ajaybabu.s/Desktop/DesignPatterns/DesignPatterns Dev-Info.plist"; sourceTree = "<absolute>"; };
 		806D489D1FF543E9001E523D /* DesignPatterns UAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DesignPatterns UAT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		806D489E1FF543E9001E523D /* DesignPatterns UAT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DesignPatterns UAT-Info.plist"; path = "/Users/ajaybabu.s/Desktop/DesignPatterns/DesignPatterns UAT-Info.plist"; sourceTree = "<absolute>"; };
+		80AFB7DC1FFD39BB00CDC40D /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +103,7 @@
 		806D48641FF542B7001E523D /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				80AFB7DB1FFD39BB00CDC40D /* Singleton Pattern */,
 				806D48771FF5431F001E523D /* AppDelegate */,
 				806D48791FF54371001E523D /* ViewControllers */,
 				806D48691FF542B7001E523D /* Main.storyboard */,
@@ -126,6 +128,14 @@
 				806D487A1FF54371001E523D /* ViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		80AFB7DB1FFD39BB00CDC40D /* Singleton Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				80AFB7DC1FFD39BB00CDC40D /* Singleton.swift */,
+			);
+			path = "Singleton Pattern";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
