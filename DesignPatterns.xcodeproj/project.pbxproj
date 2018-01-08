@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		806621161FFF73D400AFC672 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AFB7DC1FFD39BB00CDC40D /* Singleton.swift */; };
+		806621171FFF73D500AFC672 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AFB7DC1FFD39BB00CDC40D /* Singleton.swift */; };
+		806621181FFF73D600AFC672 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AFB7DC1FFD39BB00CDC40D /* Singleton.swift */; };
+		806621191FFF73D600AFC672 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AFB7DC1FFD39BB00CDC40D /* Singleton.swift */; };
 		806D486B1FF542B7001E523D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 806D48691FF542B7001E523D /* Main.storyboard */; };
 		806D486D1FF542B7001E523D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806D486C1FF542B7001E523D /* Assets.xcassets */; };
 		806D48701FF542B7001E523D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 806D486E1FF542B7001E523D /* LaunchScreen.storyboard */; };
@@ -304,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				806D48A21FF54A2B001E523D /* ViewController.swift in Sources */,
+				806621161FFF73D400AFC672 /* Singleton.swift in Sources */,
 				806D48A11FF54A27001E523D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				806D48A41FF54A8C001E523D /* ViewController.swift in Sources */,
+				806621171FFF73D500AFC672 /* Singleton.swift in Sources */,
 				806D48A31FF54A80001E523D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				806D48A51FF54A91001E523D /* AppDelegate.swift in Sources */,
+				806621181FFF73D600AFC672 /* Singleton.swift in Sources */,
 				806D48A61FF54A91001E523D /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				806D48A71FF54AAA001E523D /* AppDelegate.swift in Sources */,
+				806621191FFF73D600AFC672 /* Singleton.swift in Sources */,
 				806D48A81FF54AAA001E523D /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
