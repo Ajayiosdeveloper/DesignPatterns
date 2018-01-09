@@ -35,6 +35,10 @@
 		806D48A61FF54A91001E523D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806D487A1FF54371001E523D /* ViewController.swift */; };
 		806D48A71FF54AAA001E523D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806D48781FF5433F001E523D /* AppDelegate.swift */; };
 		806D48A81FF54AAA001E523D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806D487A1FF54371001E523D /* ViewController.swift */; };
+		80AD7EA9200519BC00B8FC63 /* FactoryMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AD7EA8200519BC00B8FC63 /* FactoryMethod.swift */; };
+		80AD7EAA200519BC00B8FC63 /* FactoryMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AD7EA8200519BC00B8FC63 /* FactoryMethod.swift */; };
+		80AD7EAB200519BC00B8FC63 /* FactoryMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AD7EA8200519BC00B8FC63 /* FactoryMethod.swift */; };
+		80AD7EAC200519BC00B8FC63 /* FactoryMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AD7EA8200519BC00B8FC63 /* FactoryMethod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +56,7 @@
 		806D48921FF543E6001E523D /* DesignPatterns Dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DesignPatterns Dev-Info.plist"; path = "/Users/ajaybabu.s/Desktop/DesignPatterns/DesignPatterns Dev-Info.plist"; sourceTree = "<absolute>"; };
 		806D489D1FF543E9001E523D /* DesignPatterns UAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DesignPatterns UAT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		806D489E1FF543E9001E523D /* DesignPatterns UAT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DesignPatterns UAT-Info.plist"; path = "/Users/ajaybabu.s/Desktop/DesignPatterns/DesignPatterns UAT-Info.plist"; sourceTree = "<absolute>"; };
+		80AD7EA8200519BC00B8FC63 /* FactoryMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethod.swift; sourceTree = "<group>"; };
 		80AFB7DC1FFD39BB00CDC40D /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +125,7 @@
 		806D48641FF542B7001E523D /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				80AD7EA7200519A000B8FC63 /* FactoryMethod */,
 				804D823420033AA8000B3CEB /* Prototype Pattern */,
 				80AFB7DB1FFD39BB00CDC40D /* Singleton Pattern */,
 				806D48771FF5431F001E523D /* AppDelegate */,
@@ -146,6 +152,14 @@
 				806D487A1FF54371001E523D /* ViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		80AD7EA7200519A000B8FC63 /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				80AD7EA8200519BC00B8FC63 /* FactoryMethod.swift */,
+			);
+			path = FactoryMethod;
 			sourceTree = "<group>";
 		};
 		80AFB7DB1FFD39BB00CDC40D /* Singleton Pattern */ = {
@@ -324,6 +338,7 @@
 				804D823620033AD4000B3CEB /* Prototype.swift in Sources */,
 				806D48A21FF54A2B001E523D /* ViewController.swift in Sources */,
 				806621161FFF73D400AFC672 /* Singleton.swift in Sources */,
+				80AD7EA9200519BC00B8FC63 /* FactoryMethod.swift in Sources */,
 				806D48A11FF54A27001E523D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,6 +350,7 @@
 				804D823720033AD4000B3CEB /* Prototype.swift in Sources */,
 				806D48A41FF54A8C001E523D /* ViewController.swift in Sources */,
 				806621171FFF73D500AFC672 /* Singleton.swift in Sources */,
+				80AD7EAA200519BC00B8FC63 /* FactoryMethod.swift in Sources */,
 				806D48A31FF54A80001E523D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +362,7 @@
 				804D823820033AD4000B3CEB /* Prototype.swift in Sources */,
 				806D48A51FF54A91001E523D /* AppDelegate.swift in Sources */,
 				806621181FFF73D600AFC672 /* Singleton.swift in Sources */,
+				80AD7EAB200519BC00B8FC63 /* FactoryMethod.swift in Sources */,
 				806D48A61FF54A91001E523D /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,6 +374,7 @@
 				804D823920033AD4000B3CEB /* Prototype.swift in Sources */,
 				806D48A71FF54AAA001E523D /* AppDelegate.swift in Sources */,
 				806621191FFF73D600AFC672 /* Singleton.swift in Sources */,
+				80AD7EAC200519BC00B8FC63 /* FactoryMethod.swift in Sources */,
 				806D48A81FF54AAA001E523D /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

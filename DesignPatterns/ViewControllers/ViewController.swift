@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         //testSingleton()
         //testPrototype()
+        testFactoryMethod()
     }
 
     override func didReceiveMemoryWarning() {
@@ -85,6 +86,31 @@ class ViewController: UIViewController {
         processor.name = "ARMv7"
         print(mobile.processor!.name)
         print(processor.name)
+    }
+    
+    
+    func testFactoryMethod(){
+        
+        let phone: Phone? = PhoneFactory.makePhone(with: "iOS")
+        if let phone = phone {
+            print(phone.os)
+            print(phone.ram)
+            print(phone.cammera)
+        }
+        
+        let car: Car? = CarFactory.makeCar(with: 5)
+        if let car = car {
+            print(car.name)
+            print(car.seats)
+            print(car.price)
+        }
+        
+        let carTwo: Car? = CarFactory.makeCar(with: 7)
+        if let carTwo = carTwo {
+            print(carTwo.name)
+            print(carTwo.seats)
+            print(carTwo.price)
+        }
     }
     
 }
