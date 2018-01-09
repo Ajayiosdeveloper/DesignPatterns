@@ -8,6 +8,29 @@
 
 import Foundation
 
+//Singleton Pattern
+//--What is it?
+//**The singleton pattern ensures that only one object of a given type exists in the application.
+
+//--What are the benefits?
+//**The singleton pattern can be used to manage objects that represent real-world resources or to encapsulate a shared resource.
+
+//--When should you use this pattern?
+//**The singleton pattern should be used when creating further objects doesn’t increase the number of real-world resources available or when you want to consolidate an activity such as logging.
+
+//--When should you avoid this pattern?
+//**The singleton pattern isn’t useful if there are not multiple components that require access to a shared resource or if there are no objects that represent real-world resources in the application.
+
+//--How do you know when you have implemented the pattern correctly?
+//**The pattern has been correctly implemented when there is only one instance of a given type and when that instance cannot be copied and cloned and when further instances cannot be created.
+
+//--Are there any common pitfalls?
+//**The main pitfalls are using reference types (which can be copied) or classes that implement the NSCopying protocol (which can be cloned). The singleton pattern usually requires some protections against concurrent use, which is a common source of problems.
+
+//--Are there any related patterns?
+//**The object pool pattern, which  manages a fixed number of objects rather than the single object handled by the singleton pattern.
+
+
 //Global Constant Method
 //Global Constants and Variables are lazily initialised and thread safe that is garenteed by Swift Language.
 

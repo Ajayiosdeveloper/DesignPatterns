@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		804D823620033AD4000B3CEB /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804D823520033AD4000B3CEB /* Prototype.swift */; };
+		804D823720033AD4000B3CEB /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804D823520033AD4000B3CEB /* Prototype.swift */; };
+		804D823820033AD4000B3CEB /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804D823520033AD4000B3CEB /* Prototype.swift */; };
+		804D823920033AD4000B3CEB /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804D823520033AD4000B3CEB /* Prototype.swift */; };
 		806621161FFF73D400AFC672 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AFB7DC1FFD39BB00CDC40D /* Singleton.swift */; };
 		806621171FFF73D500AFC672 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AFB7DC1FFD39BB00CDC40D /* Singleton.swift */; };
 		806621181FFF73D600AFC672 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AFB7DC1FFD39BB00CDC40D /* Singleton.swift */; };
@@ -34,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		804D823520033AD4000B3CEB /* Prototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype.swift; sourceTree = "<group>"; };
 		806D48621FF542B7001E523D /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		806D486A1FF542B7001E523D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		806D486C1FF542B7001E523D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -82,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		804D823420033AA8000B3CEB /* Prototype Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				804D823520033AD4000B3CEB /* Prototype.swift */,
+			);
+			path = "Prototype Pattern";
+			sourceTree = "<group>";
+		};
 		806D48591FF542B7001E523D = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +120,7 @@
 		806D48641FF542B7001E523D /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				804D823420033AA8000B3CEB /* Prototype Pattern */,
 				80AFB7DB1FFD39BB00CDC40D /* Singleton Pattern */,
 				806D48771FF5431F001E523D /* AppDelegate */,
 				806D48791FF54371001E523D /* ViewControllers */,
@@ -307,6 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				804D823620033AD4000B3CEB /* Prototype.swift in Sources */,
 				806D48A21FF54A2B001E523D /* ViewController.swift in Sources */,
 				806621161FFF73D400AFC672 /* Singleton.swift in Sources */,
 				806D48A11FF54A27001E523D /* AppDelegate.swift in Sources */,
@@ -317,6 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				804D823720033AD4000B3CEB /* Prototype.swift in Sources */,
 				806D48A41FF54A8C001E523D /* ViewController.swift in Sources */,
 				806621171FFF73D500AFC672 /* Singleton.swift in Sources */,
 				806D48A31FF54A80001E523D /* AppDelegate.swift in Sources */,
@@ -327,6 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				804D823820033AD4000B3CEB /* Prototype.swift in Sources */,
 				806D48A51FF54A91001E523D /* AppDelegate.swift in Sources */,
 				806621181FFF73D600AFC672 /* Singleton.swift in Sources */,
 				806D48A61FF54A91001E523D /* ViewController.swift in Sources */,
@@ -337,6 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				804D823920033AD4000B3CEB /* Prototype.swift in Sources */,
 				806D48A71FF54AAA001E523D /* AppDelegate.swift in Sources */,
 				806621191FFF73D600AFC672 /* Singleton.swift in Sources */,
 				806D48A81FF54AAA001E523D /* ViewController.swift in Sources */,
