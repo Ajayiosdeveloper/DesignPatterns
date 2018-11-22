@@ -17,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         print("Praise the LORD!")
+        print("Praise the LORD Jesus Christ forever and forevermore.Amen His grace endures forever  and forevermore.Amen")
         return true
     }
 
